@@ -5,6 +5,7 @@ def greet_characters(array)
   array.each do |greeting|
     greeting == "Hello"
   end
+  greet_characters
 end
 
 def list_dwarves(array)
